@@ -8,7 +8,7 @@
 
 В случае наличия циклических ссылок выкинуть exception. Класс должен имплементировать следующий интерфейс:
 
-interface SuperEncoder {
+ interface SuperEncoder {
     byte[] serialize(Object anyBean);
     Object deserialize(byte[] data);
-}
+ }
